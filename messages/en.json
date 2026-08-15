@@ -1,0 +1,86 @@
+{
+  "Portfolio": {
+    "name": "Ali Sabet",
+    "intro": "Full-Stack Developer passionate about creating Android Apps and innovative web applications",
+    "skills": {
+      "title": "Skills",
+      "list": [
+        "JavaScript",
+        "NextJS",
+        "React",
+        "Express.JS",
+        "React Native",
+        "Expo",
+        "AI Development",
+        "Python",
+        "FastAPI",
+        "Prisma",
+        "PostgresSQL",
+        "MySQL",
+        "Embedding",
+        "Docker",
+        "CSS",
+        "NodeJS",
+        "Deploying",
+        "Database Design"
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "list": [
+        {
+          "name": "Ronak Dam Parsian",
+          "description": "A comprehensive ranch management platform with a web application and a React Native Expo mobile application for managing and monitoring ranch operations",
+          "url": "https://ronak-dam.ir"
+        },
+        {
+          "name": "Danai-e",
+          "description": "AI-powered learning assistant that creates quizzes and provides visual learning experiences",
+          "url": "https://danai-e.ir"
+        },
+        {
+          "name": "Kalario",
+          "description": "Modern e-commerce platform with Android app, web app, CRM features, messaging, and maps integration",
+          "url": "https://kalario-co.ir"
+        },
+        {
+          "name": "Natoure Rasht",
+          "description": "A scavenger hunt project for engaging local businesses in Rasht",
+          "url": "https://natoure-rasht.ir"
+        },
+        {
+          "name": "House of Usha",
+          "description": "An online clothing shop with modern design and functionality",
+          "url": "https://usha-house.ir"
+        },
+        {
+          "name": "Baremjoon",
+          "description": "Open-source calculator app for teachers to simplify student grading and calculations",
+          "url": "/baremi.zip"
+        },
+        {
+          "name": "Gilly Cooking App",
+          "description": "Comprehensive cooking application with AI assistant (Pari) for recipe management and cooking guidance",
+          "url": "#"
+        },
+        {
+          "name": "expo-persian-date-wheel",
+          "description": "An open-source Persian calendar date and time picker for React Native and Expo applications",
+          "url": "https://github.com/alisabet95/expo-persian-date-wheel"
+        },
+        {
+          "name": "react-persian-date-wheel",
+          "description": "An open-source Persian calendar date picker for React and web applications",
+          "url": "https://github.com/alisabet95/react-persian-date-wheel"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Me"
+    },
+    "footer": "Natoure Rasht"
+  },
+  "HomePage": {
+    "title": "Welcome to My Portfolio"
+  }
+}

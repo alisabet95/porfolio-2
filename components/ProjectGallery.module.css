@@ -1,0 +1,337 @@
+/* components/ProjectGallery.module.css */
+.gallerySection {
+  padding: 3rem 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8fafc;
+}
+
+.galleryTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.swiperContainer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.projectSwiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.swiperSlide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border: 2px solid #e5e7eb;
+  background: white;
+  cursor: pointer;
+}
+
+.imageWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  border-color: #14b8a6;
+}
+
+.imageWrapper:focus {
+  outline: 2px solid #14b8a6;
+  outline-offset: 2px;
+}
+
+.swiperImage {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 0.75rem;
+}
+
+.imageWrapper:hover .imageOverlay {
+  opacity: 1;
+}
+
+.zoomIcon {
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover .zoomIcon {
+  transform: scale(1);
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+    -webkit-backdrop-filter:blur(10px);
+
+  backdrop-filter: blur(5px);
+}
+
+.modalContent {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 1001;
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 1001;
+}
+
+.navButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.prevButton {
+  left: -60px;
+}
+
+.nextButton {
+  right: -60px;
+}
+
+.modalImageContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  max-width: 1200px;
+  max-height: 80vh;
+}
+
+.modalImage {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.imageCounter {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+/* Customize Swiper navigation */
+.projectSwiper .swiper-button-next,
+.projectSwiper .swiper-button-prev {
+  color: #14b8a6;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter:blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.projectSwiper .swiper-button-next:after,
+.projectSwiper .swiper-button-prev:after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.projectSwiper .swiper-pagination-bullet {
+  background: #d1d5db;
+  width: 12px;
+  height: 12px;
+  opacity: 0.7;
+}
+
+.projectSwiper .swiper-pagination-bullet-active {
+  background: #14b8a6;
+  opacity: 1;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .gallerySection {
+    padding: 2rem 0;
+  }
+  
+  .galleryTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .swiperContainer {
+    padding: 0 1rem;
+  }
+  
+  .imageWrapper {
+    padding-bottom: 75%;
+  }
+  
+  .projectSwiper .swiper-button-next,
+  .projectSwiper .swiper-button-prev {
+    display: none;
+  }
+
+  /* Mobile modal adjustments */
+  .modalOverlay {
+    padding: 1rem;
+  }
+  
+  .modalContent {
+    max-width: 95vw;
+    max-height: 95vh;
+  }
+  
+  .closeButton {
+    top: -50px;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+  }
+  
+  .navButton {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+  
+  .imageCounter {
+    bottom: -50px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Desktop adjustments */
+@media (min-width: 1024px) {
+  .swiperContainer {
+    max-width: 1200px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1280px) {
+  .swiperContainer {
+    max-width: 1400px;
+  }
+}
+
+/* Touch device improvements */
+@media (hover: none) and (pointer: coarse) {
+  .imageOverlay {
+    opacity: 0.7;
+  }
+  
+  .zoomIcon {
+    transform: scale(1);
+  }
+}

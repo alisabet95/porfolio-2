@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Shabnam';
+  src: url('/fonts/shabnam/Shabnam-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+p,h1,h2,h3,h4,h5,strong,a,div,ul,ol,li,body{
+font-family: "Shabnam";
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+
+}
+
+html[lang="fa"] {
+  font-family: 'Shabnam', sans-serif;
+  direction: rtl;
+}
+
+/* Custom Utility Classes */
+.container {
+  max-width: 1280px;
+  @apply px-4;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography Enhancements */
+h1, h2, h3 {
+  @apply font-bold tracking-tight;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+.gooz {
+
+  background-color: rgb(38, 224, 165);
+  padding: 14px 18px;
+  border-radius: 5px 10px 0 25px;
+  color: rgb(41, 51, 1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Fixed text-shadow */
+  transition: all 0.3s ease; /* Smooth transition for all changes */
+  display: inline-block; /* Ensures transform works correctly */
+}
+
+.gooz:hover {
+  background-color: rgb(2, 51, 35);
+  color: whitesmoke;
+  animation: bounce 0.5s ease; /* Trigger bounce only on hover */
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); } /* Reduced for subtler effect */
+  100% { transform: translateY(0); }
+}
+
+
+a,p,div,section{
+font-family: 'Shabnam';
+}
+
+
+.link-to-site{
+background-color: rgb(4, 45, 96);
+color: white;
+position: relative;
+bottom: 2px;
+text-align: center;
+margin: 0 auto;
+padding: 10px 20px;
+border-radius: 10px;
+}
+
+.link-to-site:hover{
+background-color: rgb(15, 15, 213);
+}
+
+p{
+color:bisque;
+}

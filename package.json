@@ -1,0 +1,40 @@
+{
+  "name": "porfolio",
+  "version": "0.1.0",
+  "author": "Ali Sabet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.6",
+    "next": "^16.3.1",
+    "next-intl": "^4.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0",
+    "swiper": "^12.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.2",
+    "tailwindcss": "^4",
+    "typescript": "^5.9.3"
+  },
+  "allowScripts": {
+    "sharp@0.35.3": true,
+    "unrs-resolver@1.11.1": true,
+    "@swc/core@1.16.0": true,
+    "@tailwindcss/oxide@4.1.11": true,
+    "@parcel/watcher@2.6.0": true
+  }
+}
