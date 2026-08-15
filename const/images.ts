@@ -23,4 +23,6 @@ const allProjectImages = [
   "/ronak/2.jpg",
   "/ronak/3.jpg",
   "/ronak/4.png",
+
+  "/wheel/1.jpg",
 ];
