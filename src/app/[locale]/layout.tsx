@@ -85,7 +85,7 @@ export async function generateMetadata({
       },
     },
     verification: {
-      google: "NvYkeQXfhsaRBVCA41MyrsiOZ6w8EKLizdv5MQLI_zI",
+      google: "SClRQTWUQDku7CXv2KkWF8E6Rxe3-CGS4PBEPlpFIbM",
     },
     authors: [{ name: "Ali Sabet", url: siteUrl }],
     icons: {
