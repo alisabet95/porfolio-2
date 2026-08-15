@@ -3,7 +3,7 @@
 This is my public Porfolio
 I'm a Fullstack Developer, my main focus is JavaScript
 you can see my projects and deployed web-app of my porfolio in here:
-https://ali-sabet.vercel.app/en
+https://ali-ssabet.vercel.app/en
 
 ## My Stack
 

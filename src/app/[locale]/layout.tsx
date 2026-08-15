@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const isFA = locale === "fa";
 
-  const siteUrl = "https://ali-sabet.vercel.app";
+  const siteUrl = "https://ali-ssabet.vercel.app";
 
   const title = isFA
     ? "علی ثابت | نمونه‌کار توسعه‌دهنده فول‌استک"
