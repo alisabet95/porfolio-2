@@ -50,7 +50,7 @@ export default function HomePage() {
             variants={containerVariants}
           >
             <div className={styles.headerText}>
-              <motion.h1
+              <motion.h1 
                 className={styles.h1}
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -95,14 +95,18 @@ export default function HomePage() {
                 className={styles.profileImage}
                 priority
               />
+              <div className={styles.imageOverlay}></div>
+              <div className={styles.imageGlow}></div>
             </motion.div>
+            <div className={styles.languageWrapper}>
+              <LanguageSwitcher current={locale} />
+            </div>
           </motion.div>
-          <div className={styles.languageWrapper}>
-            <LanguageSwitcher current={locale} />
-          </div>
         </div>
         <div className={styles.headerDecoration}>
+          <div className={styles.decorationCircle1}></div>
           <div className={styles.decorationCircle2}></div>
+          <div className={styles.decorationCircle3}></div>
         </div>
       </header>
 
@@ -128,14 +132,14 @@ export default function HomePage() {
             {locale === "en" && (
               <>
                 <p className={styles.paragraph}>
-                  I&lsquo;m a dedicated Full-Stack Developer with over 5 years
-                  of experience crafting innovative and scalable web
-                  applications. My expertise lies in modern JavaScript
-                  frameworks, backend technologies, and creating intuitive user
-                  experiences that leave a lasting impact.
+                  I'm a dedicated Full-Stack Developer with over 5 years of
+                  experience crafting innovative and scalable web applications.
+                  My expertise lies in modern JavaScript frameworks, backend
+                  technologies, and creating intuitive user experiences that
+                  leave a lasting impact.
                 </p>
                 <p className={styles.paragraph}>
-                  When I&lsquo;m not coding, you can find me exploring new
+                  When I'm not coding, you can find me exploring new
                   technologies, contributing to open-source projects, solving
                   unsolvable puzzles, reading a good murder-mystery book or
                   enjoying a refreshing hike in nature.
@@ -153,8 +157,7 @@ export default function HomePage() {
                 <p className={styles.paragraph}>
                   وقتی کد نمی‌نویسم، مشغول مطالعه فناوری‌های جدید، مشارکت در
                   پروژه‌های متن‌باز، لذت بردن از حل کردن یک پازل پیچیده یا
-                  خواندن یک کتاب جنایی هستم. (اگه شما هم آگاتا کریستی رو خیلی
-                  دوست دارین رفیق من هستین)
+                  خواندن یک کتاب جنایی هستم.
                 </p>
               </>
             )}
@@ -199,7 +202,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projects Section - CLEAN VERSION */}
       <section className={styles.section}>
         <div className={styles.container}>
           <motion.h2
@@ -239,16 +242,7 @@ export default function HomePage() {
                     {locale === "en" ? "Technologies:" : "فناوری‌ها:"}
                   </span>
                   <span className={styles.metaValue}>
-                    {project.name === "Danai-e" || project.name === "دانای-ای"
-                      ? "React Native, Expo, Next.js, Express.js, AI"
-                      : project.name === "Kalario" || project.name === "کالاریو"
-                        ? "React Native, Expo, Next.js, Express.js, MySQL"
-                        : project.name === "Baremi" || project.name === "بارمی"
-                          ? "React Native, Expo, JavaScript"
-                          : project.name === "Gilly Cooking App" ||
-                              project.name === "اپ آشپزی گیلی"
-                            ? "React Native, AI, Firebase"
-                            : "Next.js, Prisma, MySQL, React, Tailwind"}
+                    {project.technologies}
                   </span>
                 </div>
 
@@ -257,30 +251,7 @@ export default function HomePage() {
                     {locale === "en" ? "Impact:" : "تأثیر:"}
                   </span>
                   <span className={styles.metaValue}>
-                    {project.name === "Danai-e" || project.name === "دانای-ای"
-                      ? locale === "en"
-                        ? "AI-powered quiz & visual learning"
-                        : "آزمون و یادگیری بصری با AI"
-                      : project.name === "Kalario" || project.name === "کالاریو"
-                        ? locale === "en"
-                          ? "E-commerce with real-time messaging"
-                          : "فروشگاهی با پیام‌رسانی"
-                        : project.name === "Baremi" || project.name === "بارمی"
-                          ? locale === "en"
-                            ? "Open-source educator tool"
-                            : "ابزار متن‌باز آموزشی"
-                          : project.name === "Gilly Cooking App" ||
-                              project.name === "اپ آشپزی گیلی"
-                            ? locale === "en"
-                              ? "AI cooking assistant"
-                              : "دستیار آشپزی AI"
-                            : locale === "en"
-                              ? index === 0
-                                ? "50+ local businesses engaged"
-                                : "30% sales increase"
-                              : index === 0
-                                ? "افزایش فروش کسب‌وکارها"
-                                : "افزایش ۳۰٪ فروش"}
+                    {project.impact}
                   </span>
                 </div>
 
