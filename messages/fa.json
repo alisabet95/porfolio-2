@@ -31,47 +31,65 @@
         {
           "name": "روناک دام پارسیان",
           "description": "سامانه جامع مدیریت دامداری شامل وب‌اپلیکیشن و اپلیکیشن موبایل توسعه‌یافته با React Native و Expo برای مدیریت و نظارت بر امور دامداری",
-          "url": "https://ronak-dam.ir"
+          "url": "https://ronak-dam.ir",
+          "technologies": "Next.js, Express.js, React Native, Expo, Prisma, PostgreSQL",
+          "impact": "مدیریت کارآمد دامداری و افزایش بهره‌وری"
         },
         {
           "name": "دانای-ای",
           "description": "دستیار یادگیری مبتنی بر هوش مصنوعی که آزمون‌ها را ایجاد می‌کند و تجربیات یادگیری بصری ارائه می‌دهد",
-          "url": "https://danai-e.ir"
+          "url": "https://danai-e.ir",
+          "technologies": "Next.js, Express.js, React Native, AI, Python, FastAPI",
+          "impact": "یادگیری تعاملی با تولید آزمون‌های هوشمند"
         },
         {
           "name": "کالاریو",
           "description": "پلتفرم فروشگاهی مدرن با اپ اندروید، وب اپ، قابلیت‌های CRM، سیستم پیام‌رسانی و یکپارچه‌سازی نقشه",
-          "url": "https://kalario-co.ir"
+          "url": "https://kalario-co.ir",
+          "technologies": "Next.js, Express.js, React Native, Expo, MySQL, WebSocket",
+          "impact": "راه‌حل کامل فروشگاهی با پیام‌رسانی لحظه‌ای"
         },
         {
           "name": "ناطور رشت",
           "description": "پروژه شکار گنج برای جذب کسب‌وکارهای شهری در رشت",
-          "url": "https://natoure-rasht.ir"
+          "url": "https://natoure-rasht.ir",
+          "technologies": "Next.js, React, Tailwind, Prisma, PostgreSQL",
+          "impact": "جذب و تعامل با ۵۰+ کسب‌وکار محلی"
         },
         {
           "name": "خانه مد عاشا",
           "description": "فروشگاه آنلاین لباس با طراحی و عملکرد مدرن",
-          "url": "https://usha-house.ir"
+          "url": "https://usha-house.ir",
+          "technologies": "Next.js, React, Tailwind, Prisma, MySQL",
+          "impact": "افزایش فروش و تجربه کاربری مدرن"
         },
         {
           "name": "بارمجون",
           "description": "اپلیکیشن ماشین‌حساب متن‌باز برای معلمان جهت ساده‌سازی نمره‌دهی و محاسبات دانش‌آموزان",
-          "url": "/baremi.zip"
+          "url": "/baremi.zip",
+          "technologies": "React Native, Expo, JavaScript",
+          "impact": "ابزار متن‌باز برای ساده‌سازی محاسبات معلمان"
         },
         {
           "name": "اپ آشپزی گیلی",
           "description": "برنامه جامع آشپزی با دستیار هوش مصنوعی (پری) برای مدیریت دستورات و راهنمایی آشپزی",
-          "url": "#"
+          "url": "#",
+          "technologies": "React Native, AI Integration, Firebase",
+          "impact": "دستیار هوشمند آشپزی برای مدیریت دستورات"
         },
         {
           "name": "expo-persian-date-wheel",
           "description": "پکیج متن‌باز انتخاب تاریخ و زمان شمسی برای اپلیکیشن‌های React Native و Expo",
-          "url": "https://github.com/alisabet95/expo-persian-date-wheel"
+          "url": "https://github.com/alisabet95/expo-persian-date-wheel",
+          "technologies": "React Native, Expo, TypeScript",
+          "impact": "وجود نداشتن پکیج فارسی مشابه و کمک ارائه به پارسی‌زبان‌ها"
         },
         {
           "name": "react-persian-date-wheel",
           "description": "پکیج متن‌باز انتخاب تاریخ شمسی برای اپلیکیشن‌های React و وب",
-          "url": "https://github.com/alisabet95/react-persian-date-wheel"
+          "url": "https://github.com/alisabet95/react-persian-date-wheel",
+          "technologies": "React, TypeScript",
+          "impact": "کمک به جامعه تِک ایران"
         }
       ]
     },
