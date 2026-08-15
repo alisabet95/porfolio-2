@@ -31,47 +31,65 @@
         {
           "name": "Ronak Dam Parsian",
           "description": "A comprehensive ranch management platform with a web application and a React Native Expo mobile application for managing and monitoring ranch operations",
-          "url": "https://ronak-dam.ir"
+          "url": "https://ronak-dam.ir",
+          "technologies": "Next.js, Express.js, React Native, Expo, Prisma, PostgreSQL",
+          "impact": "Efficient ranch management and increased productivity"
         },
         {
           "name": "Danai-e",
           "description": "AI-powered learning assistant that creates quizzes and provides visual learning experiences",
-          "url": "https://danai-e.ir"
+          "url": "https://danai-e.ir",
+          "technologies": "Next.js, Express.js, React Native, AI, Python, FastAPI",
+          "impact": "Interactive learning with AI-powered quiz generation"
         },
         {
           "name": "Kalario",
           "description": "Modern e-commerce platform with Android app, web app, CRM features, messaging, and maps integration",
-          "url": "https://kalario-co.ir"
+          "url": "https://kalario-co.ir",
+          "technologies": "Next.js, Express.js, React Native, Expo, MySQL, WebSocket",
+          "impact": "Complete e-commerce solution with real-time messaging"
         },
         {
           "name": "Natoure Rasht",
           "description": "A scavenger hunt project for engaging local businesses in Rasht",
-          "url": "https://natoure-rasht.ir"
+          "url": "https://natoure-rasht.ir",
+          "technologies": "Next.js, React, Tailwind, Prisma, PostgreSQL",
+          "impact": "Engaged 50+ local businesses in Rasht"
         },
         {
           "name": "House of Usha",
           "description": "An online clothing shop with modern design and functionality",
-          "url": "https://usha-house.ir"
+          "url": "https://usha-house.ir",
+          "technologies": "Next.js, React, Tailwind, Prisma, MySQL",
+          "impact": "Increased sales and modern user experience"
         },
         {
           "name": "Baremjoon",
           "description": "Open-source calculator app for teachers to simplify student grading and calculations",
-          "url": "/baremi.zip"
+          "url": "/baremi.zip",
+          "technologies": "React Native, Expo, JavaScript",
+          "impact": "Open-source tool for simplifying teacher calculations"
         },
         {
           "name": "Gilly Cooking App",
           "description": "Comprehensive cooking application with AI assistant (Pari) for recipe management and cooking guidance",
-          "url": "#"
+          "url": "#",
+          "technologies": "React Native, AI Integration, Firebase",
+          "impact": "AI-powered cooking assistant for recipe management"
         },
         {
           "name": "expo-persian-date-wheel",
           "description": "An open-source Persian calendar date and time picker for React Native and Expo applications",
-          "url": "https://github.com/alisabet95/expo-persian-date-wheel"
+          "url": "https://github.com/alisabet95/expo-persian-date-wheel",
+          "technologies": "React Native, Expo, TypeScript",
+          "impact": "over 3 successful (non-me) installs😭"
         },
         {
           "name": "react-persian-date-wheel",
           "description": "An open-source Persian calendar date picker for React and web applications",
-          "url": "https://github.com/alisabet95/react-persian-date-wheel"
+          "url": "https://github.com/alisabet95/react-persian-date-wheel",
+          "technologies": "React, TypeScript",
+          "impact": "Github fave and Persian community impact"
         }
       ]
     },
